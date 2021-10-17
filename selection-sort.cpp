@@ -28,9 +28,11 @@ void selectionSort (vector<int> &arr) {
 
 int main() {
 	int n;
+	// size of array
 	cin>>n;
 	vector<int> a(n);
 	for (int i=0; i<n; ++i) cin>>a[i];
+	// input array
 	cout<<"Input array :\n";
 	for (int i=0; i<n; ++i) cout<<a[i]<<" ";
 	cout<<"\n";
